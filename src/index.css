@@ -11,3 +11,138 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, main {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+}
+
+.jc-center {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 100%;
+  padding-top: 30px;
+}
+
+.boxCenter {
+  background-color: white;
+  width: 480px;
+  height: 640px;
+}
+
+.login {
+  font-size: 23px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.facebook {
+  height: 30px;
+  width: 410px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(45, 129, 219);
+}
+
+.facebook:hover {
+  background-color: rgb(34, 91, 151);
+}
+
+.google {
+  height: 30px;
+  width: 410px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(45, 219, 77);
+  margin-top: 20px;
+}
+
+.google:hover {
+  background-color: rgb(17, 122, 36);
+}
+
+.linkSocial {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.or {
+  font-size: 23px;
+  margin: 20px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.input {
+  width: 410px;
+  height: 30px;
+  padding-left: 8px;
+}
+
+.telNum {
+  margin-top: 20px;
+}
+
+.birth {
+  margin-top: 20px;
+}
+
+.forgot-pass {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 35px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: rgb(52, 50, 50);
+}
+
+.loginBtn {
+  align-items: center;
+  width: 410px;
+  height: 30px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.loginBtn:hover {
+  background-color: rgb(84, 84, 84);
+}
+
+.acc {
+  font-size: 21px;
+  margin: 20px 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.newAcc {
+  align-items: center;
+  width: 410px;
+  height: 30px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: blueviolet;
+}
+
+.newAcc:hover {
+  background-color: rgb(92, 27, 153);
+}
